@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "SuperMario";
+    src: url(../../fonts/smb.ttf);
+} 
+@font-face {
+    font-family: "saofont";
+    src: url(../../fonts/sao.otf);
+}
+@font-face {
+    font-family: "triforce";
+    src: url(../../fonts/Triforce.ttf);
+}
+@font-face {
+    font-family: "dwarf";
+    src: url(../../fonts/DWARVESC.ttf);
+}
+@font-face {
+    font-family: "ancient";
+    src: url(../../fonts/ancientHylian.ttf);
+}
+@font-face {
+    font-family: "zeldaDX";
+    src: url(../../fonts/zeldadx.ttf);
+}
+@font-face {
+    font-family: "resi";
+    src: url(../../fonts/Resident_Evil_Large.ttf);
+}
+@font-face {
+    font-family: "jurassic";
+    src: url(../../fonts/Jurassic.ttf);
+}
+@font-face {
+    font-family: "poke";
+    src: url(../../fonts/pokemon.ttf);
+}
+@font-face {
+    font-family: "poke2";
+    src: url(../../fonts/pokemon_outline.ttf);
+}
+@font-face {
+    font-family: "minecraft";
+    src: url(../../fonts/minecraft.ttf);
+}
+@font-face {
+    font-family: "next";
+    src: url(../../fonts/NextCustom.ttf);
+}
+@font-face {
+    font-family: "drip";
+    src: url(../../fonts/adrip1.ttf);
+}
+@font-face {
+    font-family: "jap";
+    src: url(../../fonts/AlmostJapanese.ttf);
+}
+@font-face {
+    font-family: "dbs";
+    src: url(../../fonts/doublebubbleshadow.otf);
+}
+@font-face {
+    font-family: "dbsi";
+    src: url(../../fonts/doublebubbleshadowitalic.otf);
+}
+@font-face {
+    font-family: "resi2";
+    src: url(../../fonts/residentevilFont.ttf);
+}
+@font-face {
+    font-family: "TP";
+    src: url(../../fonts/Ravenna.ttf);
+}
+@font-face {
+    font-family: "TP2";
+    src: url(../../fonts/AmericanUncDRegular.ttf);
+}
+@font-face {
+    font-family: "TPHylian";
+    src: url(../../fonts/TPHylian-WiiRegular.otf);
+}
+@font-face {
+    font-family: "dirty";
+    src: url(../../fonts/DIRTYEGO.ttf);
+}
+@font-face {
+    font-family: "diploma";
+    src: url(../../fonts/diploma.ttf);
+}
+@font-face {
+    font-family: "digital";
+    src: url(../../fonts/digital-7.ttf);
+}
+@font-face {
+    font-family: "face";
+    src: url(../../fonts/face.ttf);
+}
+@font-face {
+    font-family: "hanged";
+    src: url(../../fonts/hanged.ttf);
+}
+@font-face {
+    font-family: "mael";
+    src: url(../../fonts/mael.ttf);
+}
+body {
+    background-image: url("../../images/beach.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
+#subbody {
+    background-image: url("../../images/bg_white.png");
+    color: black;
+    height: 80%;
+    width: 90%;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    font-family: "Arial";
+    font-size: 30px;
+    border-radius: 30px;
+}
+#commentbody {
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #222;
+    color: black;
+}
+#commentbodyUser {
+    float: right;
+    color: black;
+    padding-right: 5%;
+    font-size: 20px;
+}
+h1 {
+    font-family : "saofont";
+    font-size: 40px;
+    color: black;
+}
+h2 {
+    font-family : "face";
+    font-size: 80px;
+    color: black;
+}
+h6 {
+    font-family : "saofont";
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 30px;
+    color: black;
+}
+#backgroundIndex {
+    font-family: "Arial";
+    font-size: 22px;
+}
+#backgroundPost {
+    font-family: "Arial";
+    font-size: 22px;
+    height: 100%;
+}
+#backgroundLogin {
+    font-family: "Arial";
+    font-size: 22px;
+    height: 100%;
+}
+#backgroundPW {
+    font-family: "Arial";
+    font-size: 22px;
+    height: 100%;
+}
+#loginbar {
+    top: 0%;
+    margin: auto;
+    width: 98%;
+    background-image: url("../../images/joshaBar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Arial";
+    position: fixed;
+}
+#username {
+    font-size: 19px;
+    font-family: "saofont";
+    top: 0%;
+    height: 2%;
+    margin-top: 1.5%;
+    margin-right: 5%;
+    color: black;
+    float: right;
+}
+#thyme {
+    top: 0%;
+    color: #FFF;
+    float: right;
+    margin-right: 9%;
+    margin-top: 0%;
+}
+:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+#joshaFont{
+    font-size: 18px;
+    font-family: "saofont";
+    
+}
+joshafont.h1{
+    font-size: 25px;
+    font-family: "minecraft"
+}
+#boldEinsicht {
+    font-size: 14px;
+    font-family: "Arial";
+    color: black;
+}
+#boldEinsicht2 {
+    font-size: 18px;
+    font-family: "Arial";
+    width: 20%;
+    color: black;
+}
+#boldEinsicht3 {
+    font-size: 22px;
+    font-style: oblique;
+    color: black;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.clock {
+    width: 65%;
+    margin: 0 auto;
+    padding: 0%;
+    padding-right: 40%;
+    color: #fff;
+}
+#Date {
+    font-family: 'saofont';
+    font-size: 20px;
+    text-align: center;
+    //text-shadow: 0 0 5px #3cff00;
+    color: black;
+}
+ul {
+    display: inline;
+    width: 20px;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+ul li {
+    display: inline;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'digital';
+    text-shadow: 0 0 5px #fff;
+    color: black;
+}
+#point {
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Simple Animation */
+@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+    text-shadow: 0 0 20px #3cff00;
+}
+50% {
+    opacity: 0;
+    text-shadow: none;
+}
+100% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #3cff00;
+}	
+}
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #3cff00;
+    }
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #3cff00;
+    };
+}
