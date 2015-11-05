@@ -1,53 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+    	<meta charset="utf-8">
         <title>Allgemein</title>
         <link href="css/forumLayout.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
         <?php
-            include("include/includeInfo.php");
+            //include("include/includeInfo.php");
         ?>
         <div id="subbody">
             <h1>
                 Asperger Syndrom Allgemein
             </h1>
-            Als Asperger-Syndrom wird eine eher milde Variante innerhalb des 
-            Autismusspektrums bezeichnet, das seinerseits zum Katalog der 
-            sogenannten tiefgreifenden Entwicklungsstörungen (im Gegensatz zu 
-            spezifischen Entwicklungsstörungen) gehört. Die Variante ist vor 
-            allem durch Schwächen in den Bereichen der sozialen Interaktion und 
-            Kommunikation gekennzeichnet, sowie durch eingeschränkte und stereotype 
-            Aktivitäten und Interessen.
+            Bei autistischen St&ouml;rungen handelt es sich um sogenannte tiefgreifende Entwicklungsst&ouml;rungen( im Gegensatz zu den spezifischen Entwicklungsst&ouml;rungen), welche angeboren, chronisch und unheilbar sind. Oft nehmen die spezifisch autistischen Erscheinungen im Laufe des Erwachsenenalters ab, es kommt aber selten zu einer vollst&auml;ndigen Normalisierung. 
+            Teilweise k&ouml;nnen Autisten ein relativ normales und selbstst&auml;ndiges leben f&uuml;hren, andere sind dagegen lebenslang auf spezielle Unterst&uuml;tzung angewiesen. Meist leben sie aber in Isolierung und ben&ouml;tigen viel Verst&auml;ndnis von ihren Mitmenschen.
+            Das Asperger-Syndrom ist eine Form des autistischen Spektrums, welche meist f&uuml;r Aussenstehende nicht erkennbar ist, da Asperger-Autisten eine normale, oft sogar &uuml;berdurchschnittliche Intelligenz aufweisen. Deshalb erscheinen sie auf den ersten Blick als "normale" Menschen.
+            Asperger-Autisten mit einer hohen Intelligenz haben oft auch gelernt, ihre Schwierigkeiten gut zu kompensieren oder zu verstecken.<br>
+            Zu den typischen Erscheinungen von Asperger-Autisten geh&ouml;rt eine Einschr&auml;nkung der F&auml;higkeit, nonverbale Kommunikation wie Mimik, Gestik oder Blickkontakt bei anderen Personen zu erkennen und richtig einzusch&auml;tzen, sowie Besonderheiten
+            bei der Wahrnehmung und Verarbeitung von Sinnesreizen. Weitere Merkmale sind h&auml;ufig eingeschr&auml;nkte und stereotype Aktivit&auml;ten und Interessen sowie Schw&auml;chen in der sozialen Interaktion.
+            Da Asperger-Autisten &uuml;ber eine normale Intelligenz verf&uuml;gen, werden sie von ihrer Umwelt oft als seltsame Personen wahrgenommen.
             <br>
             <br>
-            Beeinträchtigt ist vor allem die Fähigkeit, nichtsprachliche Signale 
-            (Gestik, Mimik, Blickkontakt) bei anderen Personen zu erkennen und 
-            selbst auszusenden. Das Kontakt- und Kommunikationsverhalten von 
-            Asperger-Autisten kann dadurch merkwürdig und ungeschickt erscheinen. 
-            Da ihre Intelligenz in den meisten Fällen normal ausgeprägt ist, 
-            werden sie von ihrer Umwelt leicht als wunderlich wahrgenommen. 
-            Gelegentlich fällt das Asperger-Syndrom mit einer Hoch- oder 
-            Inselbegabung zusammen. Es gilt als angeboren, nicht heilbar und es 
-            macht sich etwa vom vierten Lebensjahr an bemerkbar.
+          	Teilweise tritt das Asperger-Syndrom gemeinam mit einer Hoch- oder Inselbegabung auf, dies ist aber meist nicht der Fall.
+          	Neben den verschiedenen Beeintr&auml;chtigungen weisen Asperger-Autsiten aber oft auch St&auml;rken auf, beispielsweise eine detaillierte Wahrnehmung, gute Selbstbeobachtung,
+          	hohe Aufmerksamkeits- und Konzentrationsf&auml;higkeit oder ein gutes Ged&auml;chtnis.
             <br>
             <br>
-            Das Asperger-Syndrom ist nicht nur mit Beeinträchtigungen, sondern 
-            oft auch mit Stärken verbunden, etwa in den Bereichen der Wahrnehmung, 
-            der Selbstbeobachtung, der Aufmerksamkeit oder der Gedächtnisleistung. 
-            Ob es als Krankheit oder als eine Normvariante der menschlichen 
-            Informationsverarbeitung eingestuft werden sollte, wird von Wissenschaftlern 
-            und Ärzten sowie von Asperger-Autisten und deren Angehörigen uneinheitlich 
-            beantwortet. Uneinig ist sich die Forschergemeinschaft auch hinsichtlich 
-            der Frage, ob man im Asperger-Syndrom ein selbstständiges Störungsbild 
-            oder eine graduelle Variante des frühkindlichen Autismus sehen sollte.
+            In der Wissenschaft ist es umstritten, ob das Asperger-Syndrom und andere Formen des autistischen Spektrums als St&ouml;rung oder nur als eine Variante der menschlichen Informationsverarbeitung betrachtet werden sollte.  
             <br>
-            <br>
-            <br>
-            <?php include("database_connect.php"); 
+            <?php //include("database_connect.php"); 
 
-                $file = basename(__FILE__, '.php');
-                $sql = <<<SQL
+                /*$file = basename(__FILE__, '.php');
+                $sql = <<<SQL 
                 SELECT *
                 FROM postKommentare WHERE KommentiertAuf = '$file'
 SQL;
@@ -63,7 +48,7 @@ SQL;
                         echo "<br>";
                         echo $row['PKommentar'] . '</div>';
                     }
-                }
+                }*/
             ?>
             <form action="" method="POST">
                 <br>
@@ -74,7 +59,7 @@ SQL;
             </form>
             <br>
             <?php
-                include("database_connect.php");
+                /* include("database_connect.php");
                 if(isset($_POST['comment'])){
                     //echo "If Ausgef&uuml;hrt";
                     $file = basename(__FILE__, '.php');
@@ -93,7 +78,7 @@ SQL;
                         echo "SQL-INSERT FEHLER";
                         echo mysqli_error($database);
                     }
-                }
+                } */
             ?>
         </div>
     </body>

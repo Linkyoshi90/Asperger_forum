@@ -103,7 +103,7 @@
     src: url(../fonts/mael.ttf);
 }
 h1 {
-    font-family : "triforce";
+    font-family : "SuperMario";
     font-size: 80px;
     color: black;
 }
@@ -112,49 +112,29 @@ h2 {
     font-size: 40px;
     color: black;
 }
-h3 {
-    font-family : "Arial";
-    font-size: 35px;
-    color: black;
-}
-h4 {
-    font-family: "Arial";
-    font-size: 12px;
-    font-weight: bold;
-}
-h5 {
-    color: black;
-    text-shadow: 0 0 5px #55f;
-}
 h6 {
     font-family : "Arial";
     font-size: 20px;
     color: black;
 }
-h7 {
-    font-family: "Arial";
-    font-size: 12px;
-    color: black;
-}
 body {
+	background-color: coral;
     background-image: url("../images/beach.png");
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    color: black;
+    
 }
 #subbody {
-    background-image: url("../images/bg.png");
+    background-image: url("../images/joshaBg.png");
     color: black;
     height: 80%;
     width: 90%;
     margin-top: 7%;
     margin-left: 5%;
-    margin-bottom: 7%;
     font-family: "saofont";
     font-size: 30px;
     border-radius: 30px;
-    z-index: 1;
 }
 #bottomBar {
     bottom: 0%;
@@ -186,32 +166,27 @@ body {
     height: 2%;
     margin-top: 1.5%;
     margin-right: 5%;
-    color: black;
+    color: white;
     float: right;
 }
 #thyme {
     top: 0%;
     color: #FFF;
     float: right;
-    margin-right: 9%;
-    margin-top: 0%;
+    margin-left: 10%;
 }
 :link {
-    color: black;
+    color: white;
 }
 a:visited {
-    color: purple;
+    color: white;
 }
-#overlayPicsLeft {
-    padding-left: 2%;
-    float: left;
-    position: fixed;
-    z-index: 2;
-}
-#overlayPicsRight {
-    padding-left: 95%;
-    position: fixed;
-    z-index: 2;
+.clock {
+    width: 65%;
+    margin: 0 auto;
+    padding: 0%;
+    padding-right: 40%;
+    color: #fff;
 }
 #Date {
     font-family: 'hanged';

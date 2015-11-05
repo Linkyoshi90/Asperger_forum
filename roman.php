@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+  
  <head>
  <meta charset="utf-8"/>
         <title>Roman</title>
+        
         <link href="css/romanLayout.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
@@ -10,11 +12,10 @@
             include("include/includeCustom.php");
         ?>
         <div id="subbody">
-            <div id='bild'><img src="images/romanBild.png" alt="alternative"></div>
+            <div id='bild'><img src="images/RomanBild.png" alt="alternative"></div>
             <h1>Roman Wenk</h1>
             <br>
-            <h7>
-            <table style="width: 100%">
+            <table>
                 <tr>
                     <td>
                         Name:
@@ -63,15 +64,15 @@
                        Lesen, Sport
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        &Uuml;ber Mich:
+                    </td>
+                    <td>
+                        Ich bin im 3.Lehrjahr der Ausbildung zum Informatiker EFZ, mit Fachrichtung Systemtechnik in der Firma Specialisterne in Bern.
+                    </td>
+                </tr>
             </table>
-            Über Mich:
-            <br>
-            Ich bin im 3.Lehrjahr der Ausbildung zum Informatiker EFZ,
-            mit Fachrichtung Systemtechnik in der Firma Specialisterne in Bern.
-            </h7>
-            <br>
-            <br>
-            <br>
         </div>
     </body>
 </html>

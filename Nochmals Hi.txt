@@ -1,0 +1,17 @@
+                                <!DOCTYPE html>
+<html>
+    <head>
+        <title>Nochmals Hi</title>
+        <link href="css/forumLayout.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <?php
+            include("include/includeCustom.php.php");
+        ?>
+        <div id="subbody">
+            <h1>
+                Nochmals Hi
+            </h1>
+        </div>
+    </body>
+</html>

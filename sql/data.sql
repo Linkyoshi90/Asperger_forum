@@ -47,10 +47,22 @@ ENGINE=InnoDB;
 
 create table IF NOT EXISTS musicplayer(
 songID int AUTO_INCREMENT NOT NULL,
-song varchar(50) NOT NULL,
-album varchar(50) NOT NULL,
+song varchar(100) NOT NULL,
+album varchar(100) NOT NULL,
 interpret varchar(50) NOT NULL,
-url blob NOT NULL,
+url varchar(400) NOT NULL,
 PRIMARY KEY (songID)
+)
+ENGINE=InnoDB;
+
+create table IF NOT EXISTS Infos(
+InfoID int AUTO_INCREMENT NOT NULL,
+Titel varchar(50) NOT NULL,
+Info blob NOT NULL,
+Datum timestamp NOT NULL,
+UserID int,
+Username varchar(40),
+PRIMARY KEY (InfoID),
+FOREIGN KEY (UserID) REFERENCES user(UserID)
 )
 ENGINE=InnoDB;

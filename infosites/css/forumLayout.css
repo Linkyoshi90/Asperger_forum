@@ -94,14 +94,6 @@
     font-family: "face";
     src: url(../../fonts/face.ttf);
 }
-@font-face {
-    font-family: "hanged";
-    src: url(../../fonts/hanged.ttf);
-}
-@font-face {
-    font-family: "mael";
-    src: url(../../fonts/mael.ttf);
-}
 body {
     background-image: url("../../images/beach.png");
     background-attachment: fixed;
@@ -116,25 +108,36 @@ body {
     width: 90%;
     margin-top: 7%;
     margin-left: 5%;
-    margin-bottom: 7%;
     font-family: "Arial";
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 30px;
 }
 #commentbody {
-    padding-left: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    color: black;
+    height: auto;
+    width: auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 5%;
+    font-family: sans-serif;
+    font-size: 15px;
     border-radius: 30px;
     border-style: solid;
-    border-color: #222;
-    color: black;
+    border-color: black;
 }
 #commentbodyUser {
-    float: right;
     color: black;
-    padding-right: 5%;
-    font-size: 20px;
+    float: right;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: "saofont";
+    font-size: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 h1 {
     font-family : "saofont";
