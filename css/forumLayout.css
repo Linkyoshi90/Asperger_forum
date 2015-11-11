@@ -1,108 +1,108 @@
 @font-face {
     font-family: "SuperMario";
-    src: url(../../fonts/smb.ttf);
+    src: url(../fonts/smb.ttf);
 } 
 @font-face {
     font-family: "saofont";
-    src: url(../../fonts/sao.otf);
+    src: url(../fonts/sao.otf);
 }
 @font-face {
     font-family: "triforce";
-    src: url(../../fonts/Triforce.ttf);
+    src: url(../fonts/Triforce.ttf);
 }
 @font-face {
     font-family: "dwarf";
-    src: url(../../fonts/DWARVESC.ttf);
+    src: url(../fonts/DWARVESC.ttf);
 }
 @font-face {
     font-family: "ancient";
-    src: url(../../fonts/ancientHylian.ttf);
+    src: url(../fonts/ancientHylian.ttf);
 }
 @font-face {
     font-family: "zeldaDX";
-    src: url(../../fonts/zeldadx.ttf);
+    src: url(../fonts/zeldadx.ttf);
 }
 @font-face {
     font-family: "resi";
-    src: url(../../fonts/Resident_Evil_Large.ttf);
+    src: url(../fonts/Resident_Evil_Large.ttf);
 }
 @font-face {
     font-family: "jurassic";
-    src: url(../../fonts/Jurassic.ttf);
+    src: url(../fonts/Jurassic.ttf);
 }
 @font-face {
     font-family: "poke";
-    src: url(../../fonts/pokemon.ttf);
+    src: url(../fonts/pokemon.ttf);
 }
 @font-face {
     font-family: "poke2";
-    src: url(../../fonts/pokemon_outline.ttf);
+    src: url(../fonts/pokemon_outline.ttf);
 }
 @font-face {
     font-family: "minecraft";
-    src: url(../../fonts/minecraft.ttf);
+    src: url(../fonts/minecraft.ttf);
 }
 @font-face {
     font-family: "next";
-    src: url(../../fonts/NextCustom.ttf);
+    src: url(../fonts/NextCustom.ttf);
 }
 @font-face {
     font-family: "drip";
-    src: url(../../fonts/adrip1.ttf);
+    src: url(../fonts/adrip1.ttf);
 }
 @font-face {
     font-family: "jap";
-    src: url(../../fonts/AlmostJapanese.ttf);
+    src: url(../fonts/AlmostJapanese.ttf);
 }
 @font-face {
     font-family: "dbs";
-    src: url(../../fonts/doublebubbleshadow.otf);
+    src: url(../fonts/doublebubbleshadow.otf);
 }
 @font-face {
     font-family: "dbsi";
-    src: url(../../fonts/doublebubbleshadowitalic.otf);
+    src: url(../fonts/doublebubbleshadowitalic.otf);
 }
 @font-face {
     font-family: "resi2";
-    src: url(../../fonts/residentevilFont.ttf);
+    src: url(../fonts/residentevilFont.ttf);
 }
 @font-face {
     font-family: "TP";
-    src: url(../../fonts/Ravenna.ttf);
+    src: url(../fonts/Ravenna.ttf);
 }
 @font-face {
     font-family: "TP2";
-    src: url(../../fonts/AmericanUncDRegular.ttf);
+    src: url(../fonts/AmericanUncDRegular.ttf);
 }
 @font-face {
     font-family: "TPHylian";
-    src: url(../../fonts/TPHylian-WiiRegular.otf);
+    src: url(../fonts/TPHylian-WiiRegular.otf);
 }
 @font-face {
     font-family: "dirty";
-    src: url(../../fonts/DIRTYEGO.ttf);
+    src: url(../fonts/DIRTYEGO.ttf);
 }
 @font-face {
     font-family: "diploma";
-    src: url(../../fonts/diploma.ttf);
+    src: url(../fonts/diploma.ttf);
 }
 @font-face {
     font-family: "digital";
-    src: url(../../fonts/digital-7.ttf);
+    src: url(../fonts/digital-7.ttf);
 }
 @font-face {
     font-family: "face";
-    src: url(../../fonts/face.ttf);
+    src: url(../fonts/face.ttf);
 }
 body {
-    background-image: url("../../images/beach.png");
+    background-image: url("../images/beach.png");
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: black;
 }
 #subbody {
-    background-image: url("../../images/bg_white.png");
+    background-image: url("../images/bg_white.png");
     color: black;
     height: 80%;
     width: 90%;
@@ -182,7 +182,7 @@ h6 {
     top: 0%;
     margin: auto;
     width: 98%;
-    background-image: url("../../images/joshaBar.png");
+    background-image: url("../images/joshaBar.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Arial";
@@ -193,7 +193,7 @@ h6 {
     font-family: "saofont";
     top: 0%;
     height: 2%;
-    margin-top: 1.5%;
+    margin-top: 0.5%;
     margin-right: 5%;
     color: black;
     float: right;

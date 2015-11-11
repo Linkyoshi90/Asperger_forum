@@ -13,7 +13,7 @@ ENGINE=InnoDB;
 
 create table IF NOT EXISTS kommentar(
 KommentarID int AUTO_INCREMENT NOT NULL,
-Kommentar blob NOT NULL,
+Kommentar text NOT NULL,
 Datum timestamp NOT NULL,
 UserID int,
 Username varchar(40),
@@ -24,7 +24,7 @@ ENGINE=InnoDB;
 
 create table IF NOT EXISTS posts(
 PostID int AUTO_INCREMENT NOT NULL,
-Post blob NOT NULL,
+Post text NOT NULL,
 Datum timestamp NOT NULL,
 UserID int,
 Username varchar(40),
@@ -35,7 +35,7 @@ ENGINE=InnoDB;
 
 create table IF NOT EXISTS postKommentare(
 PKommentarID int AUTO_INCREMENT NOT NULL,
-PKommentar blob NOT NULL,
+PKommentar text NOT NULL,
 KommentiertAuf varchar(40) NOT NULL,
 Datum timestamp NOT NULL,
 UserID int,
@@ -58,7 +58,7 @@ ENGINE=InnoDB;
 create table IF NOT EXISTS Infos(
 InfoID int AUTO_INCREMENT NOT NULL,
 Titel varchar(50) NOT NULL,
-Info blob NOT NULL,
+Info text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
 Datum timestamp NOT NULL,
 UserID int,
 Username varchar(40),

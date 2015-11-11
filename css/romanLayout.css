@@ -118,12 +118,11 @@ h6 {
     color: black;
 }
 body {
-	background-color: coral;
+    background-color: coral;
     background-image: url("../images/beach.png");
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    
 }
 #subbody {
     background-image: url("../images/joshaBg.png");
@@ -164,7 +163,7 @@ body {
     font-family: "saofont";
     top: 0%;
     height: 2%;
-    margin-top: 1.5%;
+    margin-top: 0.5%;
     margin-right: 5%;
     color: white;
     float: right;

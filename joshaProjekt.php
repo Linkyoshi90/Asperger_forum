@@ -63,10 +63,11 @@
             <br>
             <a href="http://spacepirates.tk:9001/p/Mission_List">Liste der Missionen</a>
             <br>
-            Bitte sendet mir zuletzt keine E-Mail mit den Charakteren... 
-            Und veröffentlicht ihn nicht! Er beinhaltet einige Copyright-geschützte
-            Materialien und ich habe keinen Bock, dafür geradezustehen, dass diese
-            Applikation ausserhalb meiner Verantwortung gebraucht wird!
+            <a href="http://spacepirates.tk:9001/p/Tutorial_Stage">Tutorial Stage</a>
+            <br>
+            <a href="http://spacepirates.tk:9001/p/gameplay">Gameplay</a>
+            <br>
+            <a href="http://spacepirates.tk:9001/p/Timelines">Timelines</a>
             <br>
             </h7>
             <br>

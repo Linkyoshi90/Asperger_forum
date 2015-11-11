@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Info</title>
         <link href="css/forumLayout.css" type="text/css" rel="stylesheet"/>
     </head>
@@ -14,32 +15,44 @@
                     <img src="images/newInfo.png" height="70px" width="120px" alt="alternative">
                 </a>
             </div>
-            <h1>Info-Ecke</h1>
-            <br>
-            <a href=allgemein.php>Asperger-Syndrom Allgemein</a>
-            <br>
-            <a href=entdeckung.php>Asperger-Syndrom Entdeckung</a>
-            <br>
-            <a href=Ursachen.php>Ursachen</a>
+            <form action="info.php" method="POST">
             <br>
             <?php
 
                 $sql = <<<SQL
                 SELECT *
-                FROM infos 
+                FROM Infos 
 SQL;
-
                 if(!$result = $database->query($sql)){
                     die('Fehler [' . $database->error . ']');
                 }
-
                 else{
                     while($row = $result->fetch_assoc()){
-                        echo "<a href=" . $row['Titel'] . ".php>" . $row['Titel'] . "</a>";
+                        echo "<input type='submit' name='" . $row['Titel'] . "' value='" . $row['Titel'] . "'>";
                         echo "<br>";
+                        
+                        if(isset($_POST[$row['Titel']])){
+                            $titel = $row['Titel'];
+                            $sql1 = <<<SQL
+                                SELECT Info FROM Infos Where Titel = '$titel';
+SQL;
+                            if(!$result = $database->query($sql1)){
+                            die('Fehler [' . $database->error . ']');
+                            }
+                            else{
+                                while($row = $result->fetch_assoc()){
+                                    echo $row['Info'];
+                                    echo "<br>";
+                                }
+                            }
+                        }
+                        else {
+
+                        }
                     }
                 }
-            ?> 
+                echo '</form>';
+            ?>
             <br>
             <br>
             <br>
